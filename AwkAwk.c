@@ -10,7 +10,7 @@ int main() {
 
   if (strlen(input) == 0) {
     printf("Invalid input: File is empty.\n");
-  } else if (!strstr(input, "CPU")) { //need to check lower & mixed case too
+  } else if (!strstr(input, "CPU")) {
     printf("Invalid input: No reference to CPU\n");
   } else {
 
